@@ -35,7 +35,6 @@ targets:
     platform: iOS
     sources:
       - path: BabynameShortlistTests
-      - path: BabynameShortlist.storekit
     dependencies:
       - target: BabynameShortlist
     settings:

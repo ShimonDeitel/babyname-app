@@ -64,9 +64,9 @@ final class Store: ObservableObject {
 
     static func seedData() -> [BabynameShortlistEntry] {
         [
-        BabynameShortlistEntry(rating: Amelia, gender: "5", notes: "girl"),
-        BabynameShortlistEntry(rating: Noah, gender: "4", notes: "boy"),
-        BabynameShortlistEntry(rating: Ivy, gender: "3", notes: "girl")
+        BabynameShortlistEntry(rating: 5, gender: "girl", notes: "Amelia"),
+        BabynameShortlistEntry(rating: 4, gender: "boy", notes: "Noah"),
+        BabynameShortlistEntry(rating: 3, gender: "girl", notes: "Ivy")
         ]
     }
 }
